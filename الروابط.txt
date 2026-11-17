@@ -1,1 +1,6 @@
 
+الصفحتان: discover-personality-privacy.html وdiscover-personality-delete-account.html. سمّيتهما باسم التطبيق حتى لا تستبدل index.html وprivacy.html الموجودين في مستودع GitHubPages، وهما يرتبطان ببعضهما. ارفعهما مع ملفاتك الحالية دون حذف شيء.
+الروابط التي ستضعها في Play Console (لم أتحقق منها، لأن اسم المستخدم مأخوذ من لقطة الشاشة):
+الخصوصية: https://belalmomani.github.io/GitHubPages/discover-personality-privacy.html
+حذف الحساب: https://belalmomani.github.io/GitHubPages/discover-personality-delete-account.html
+افتح الرابطين في المتصفح بعد الرفع للتأكد أنهما يعملان قبل إدخالهما في Play.
