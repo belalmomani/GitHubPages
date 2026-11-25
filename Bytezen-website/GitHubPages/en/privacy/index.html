@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Bytezen</title>
+<meta name="description" content="Privacy policy of the Bytezen app and Diskati companion: what is processed locally, what the Start.io ad library collects, retention and deletion, and contact details.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#050b1e">
+<meta name="author" content="Bilal Almomani">
+<link rel="canonical" href="https://belalmomani.github.io/GitHubPages/en/privacy/">
+<link rel="alternate" hreflang="ar" href="https://belalmomani.github.io/GitHubPages/privacy/">
+<link rel="alternate" hreflang="en" href="https://belalmomani.github.io/GitHubPages/en/privacy/">
+<link rel="alternate" hreflang="x-default" href="https://belalmomani.github.io/GitHubPages/privacy/">
+<link rel="icon" href="/GitHubPages/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/GitHubPages/assets/favicon-32.png">
+<link rel="apple-touch-icon" href="/GitHubPages/assets/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bytezen">
+<meta property="og:title" content="Privacy Policy — Bytezen">
+<meta property="og:description" content="Privacy policy of the Bytezen app and Diskati companion: what is processed locally, what the Start.io ad library collects, retention and deletion, and contact details.">
+<meta property="og:url" content="https://belalmomani.github.io/GitHubPages/en/privacy/">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://belalmomani.github.io/GitHubPages/assets/og-image.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Privacy Policy — Bytezen">
+<meta name="twitter:description" content="Privacy policy of the Bytezen app and Diskati companion: what is processed locally, what the Start.io ad library collects, retention and deletion, and contact details.">
+<meta name="twitter:image" content="https://belalmomani.github.io/GitHubPages/assets/og-image.jpg">
+<link rel="stylesheet" href="/GitHubPages/assets/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://belalmomani.github.io/GitHubPages/en/"}, {"@type": "ListItem", "position": 2, "name": "Privacy Policy", "item": "https://belalmomani.github.io/GitHubPages/en/privacy/"}]}</script>
+</head>
+<body>
+<a class=skip href="#c">Skip to content</a>
+<header class=top><div class=bar><a class=brand href="/GitHubPages/en/"><img src="/GitHubPages/assets/icon-192.png" width=36 height=36 alt="">Bytezen</a>
+<nav class=main aria-label="main"><a href="/GitHubPages/en/features/">Features</a><a href="/GitHubPages/en/download/">Download</a><a href="/GitHubPages/en/support/">Support & FAQ</a><a href="/GitHubPages/en/privacy/" aria-current=page>Privacy</a><a href="/GitHubPages/en/contact/">Contact</a><a class=lang href="/GitHubPages/privacy/" hreflang="ar" lang="ar">العربية</a></nav></div></header>
+<main id=c class=page><nav class=crumbs aria-label="breadcrumb"><a href="/GitHubPages/en/">Home</a> › Privacy Policy</nav><div class=privacy>
+<h1>Privacy Policy — Bytezen</h1>
+<p class="meta">Last updated: 2026-11-25 • App: Bytezen (package <code>com.diskati.pcmanager</code>) and its Windows companion program <code>diskati.exe</code></p>
+
+<div class="box">
+<p><strong>Responsible party:</strong> Bilal Almomani</p>
+<p><strong>Privacy contact:</strong> <a href="mailto:bilalalmomani90@gmail.com">bilalalmomani90@gmail.com</a> • <a href="tel:+962776414047" dir="ltr">+962 77 641 4047</a></p>
+</div>
+
+<h2>Summary</h2>
+<p>Bytezen lets you manage the storage of a Windows computer that you own from your phone. <strong>There are no accounts and no servers operated by us.</strong> Your computer's file data travels directly between your phone and your computer on your local network, encrypted with TLS, and is never sent to us or to any third party. The only exception is the advertising library (Start.io), described below.</p>
+
+<h2>1. What is processed and where</h2>
+<p><strong>Between phone and computer (local network only):</strong> the app shows file and folder names, paths, sizes and dates, disk space, the list of processes, services and startup programs, and system information (Windows version, processor, memory). This is read from your computer and displayed only; it is not stored on the phone and does not pass through any server. The connection uses TLS pinned to your computer's certificate fingerprint, which is stored when you pair.</p>
+
+<p><strong>Stored on the phone (locally only, no cloud backup):</strong></p>
+<ul>
+<li>The computer's address, port and certificate fingerprint, and the device token, encrypted with a key in the Android Keystore.</li>
+<li>The daily ad counter and its date.</li>
+<li>Storage-monitoring samples: drive letter, used and total size, and time, with no file names. They are deleted automatically after 90 days and you can clear them from "Storage monitor".</li>
+</ul>
+
+<p><strong>Stored on the computer (in <code>%LOCALAPPDATA%\Diskati</code>, locally only):</strong> the security certificate and its key, a hash (not the code itself) of each paired phone's token, a technical log without paths or file names, the quarantine index containing the paths of files you yourself moved to quarantine, technical run logs, and settings (such as start with Windows and offline mode).</p>
+
+<p><strong>Automatic re-discovery of the computer:</strong> if your computer's address changes, the phone tries the addresses of its own local network on the program's port only, and accepts only the device whose certificate fingerprint matches the one pinned at pairing. Nothing leaves the local network.</p>
+
+<p><strong>QR scanning:</strong> the app uses Google's code scanner (Google Play services), which runs on the device. The app does not request the camera permission and does not store or send images.</p>
+
+<p><strong>Update check:</strong> when you tap "Check for updates", the app contacts GitHub (api.github.com) to learn the latest version. GitHub sees your IP address like any web request; we send no identifier. The computer program connects to the internet only when you ask, and offline mode blocks even that.</p>
+
+<h2>2. Advertising (Start.io)</h2>
+<p>The app shows ads through the Start.io library (a third party). The library is not initialised and no ad is requested until you tap "Continue" in the notice shown on first launch. The app has no option to turn ads off.</p>
+<p>For the purposes of serving and measuring ads and diagnosing the library's own crashes, Start.io may collect and use: the <strong>Advertising ID</strong>, the <strong>IP address</strong> and an <strong>approximate location</strong> derived from it, technical device and app information, and diagnostic logs about the library's performance. We pass no information about your computer's files, their contents or names to Start.io. What Start.io collects is governed by the privacy policy published on its website (start.io).</p>
+<p>You can reset or delete your Advertising ID in Android settings (usually Settings → Privacy → Ads; the wording varies by device), and you can turn off location for apps in your device settings. If you do not want ads, you can uninstall the app.</p>
+
+<h2>3. What we do not do</h2>
+<ul>
+<li>We do not sell your data and do not share it with anyone other than as described in section 2.</li>
+<li>We do not use analytics or tracking tools of our own.</li>
+<li>The app does not request location, contacts, SMS, microphone, camera or phone-storage permissions. Its permissions are Internet (to reach your computer and for ads) and the advertising ID.</li>
+<li>The app does not create accounts.</li>
+</ul>
+
+<h2>4. Retention and deletion</h2>
+<ul>
+<li><strong>Unpair:</strong> from the app's settings, or <code>diskati unpair</code> on the computer.</li>
+<li><strong>Phone data:</strong> deleted by unpairing and then uninstalling the app or clearing its data in Android settings.</li>
+<li><strong>Computer data:</strong> stop the program (<code>diskati stop</code>) and delete the folder <code>%LOCALAPPDATA%\Diskati</code>. Files may remain in the <code>.diskati-quarantine</code> folder on your drives if you have not permanently deleted or restored them.</li>
+<li><strong>Advertising data:</strong> held by Start.io under its policy; you can reset the Advertising ID as in section 2.</li>
+</ul>
+<p>Because the app creates no accounts, there are no accounts to delete. For any request about your data, write to the contact above.</p>
+
+<h2>5. Security</h2>
+<p>The phone–computer connection is encrypted with TLS and pinned to the certificate fingerprint. The pairing code itself is never sent over the network, only a proof derived from it, and the code is valid for 5 minutes and one use. The device token is encrypted in the Android Keystore on the phone, and only a hash of it is kept on the computer. The app works only after pairing that is started on the computer itself.</p>
+
+<h2>6. Children</h2>
+<p>The app is not directed to children, and we do not knowingly collect data from children under 13.</p>
+
+<h2>7. Changes</h2>
+<p>Material changes are published on this page with an updated date.</p>
+
+<h2>8. Contact</h2>
+<p>Bilal Almomani — <a href="mailto:bilalalmomani90@gmail.com">bilalalmomani90@gmail.com</a></p>
+</div></main>
+<footer><div class=foot>
+<div><h4>Bytezen</h4><p>Manage Windows storage from your phone.</p></div>
+<div><h4>Product</h4><ul><li><a href="/GitHubPages/en/features/">Features</a></li><li><a href="/GitHubPages/en/download/">Download</a></li><li><a href="/GitHubPages/en/support/">Support & FAQ</a></li></ul></div>
+<div><h4>Legal</h4><ul><li><a href="/GitHubPages/en/privacy/">Privacy</a></li><li><a href="/GitHubPages/en/terms/">Terms of Use</a></li><li><a href="/GitHubPages/en/delete-data/">Delete your data</a></li></ul></div>
+<div><h4>Contact</h4><ul><li><a href="mailto:bilalalmomani90@gmail.com">bilalalmomani90@gmail.com</a></li><li><a href="tel:+962776414047" dir=ltr>+962 77 641 4047</a></li><li>Bilal Almomani</li></ul></div></div>
+<div class=copy>© 2026 Bilal Almomani. All rights reserved.<br>This website uses no cookies, trackers or analytics.<br><small>Windows is a trademark of Microsoft and Google Play of Google. Bytezen is not affiliated with either.</small></div></footer>
+</body></html>
