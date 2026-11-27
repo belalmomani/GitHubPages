@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://belalmomani.github.io/GitHubPages/bytezen/sitemap.xml
